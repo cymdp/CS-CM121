@@ -30,7 +30,7 @@ def genome_gen(genomeLength, bases, stringRepeats, z):
 #Repeat Generator
 def repeat_gen(length, y, z):
     repeat = genome_gen(y, ['A','C','T','G'], "", -1)
-    print("Here is the repeat: " +  repeat + "\n\n")
+    print("Repeat: " +  repeat + "\n\n")
     return genome_gen(length, ['A', 'C', 'T', 'G'], repeat, z)
 
 def kmerList(gene, x):
